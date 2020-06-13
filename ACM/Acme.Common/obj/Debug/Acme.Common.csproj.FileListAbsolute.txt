@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\C#\myProj\ACM\Acme.Common\bin\Debug\Acme.Common.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Acme.Common\bin\Debug\Acme.Common.pdb
+C:\Users\Administrator\Documents\C#\myProj\ACM\Acme.Common\obj\Debug\Acme.Common.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\C#\myProj\ACM\Acme.Common\obj\Debug\Acme.Common.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Acme.Common\obj\Debug\Acme.Common.pdb

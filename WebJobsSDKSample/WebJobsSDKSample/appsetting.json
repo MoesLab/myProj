@@ -1,0 +1,3 @@
+{
+  "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=damasanjfuncstorage;AccountKey=J9QI98RDku2sHsMIEmMy8reGyVOu08Ma1x3qcc2AKSNEXeVLdAJgb3kMYOXhezkIF7Ewo0fVI6XVzhA5lYG5PA==;EndpointSuffix=core.windows.net"
+}

@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Introduction/1.0.0": {
+        "dependencies": {
+          "Roslyn.Diagnostics.Analyzers": "2.9.8"
+        },
+        "runtime": {
+          "Introduction.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.BannedApiAnalyzers/2.9.8": {},
+      "Microsoft.CodeAnalysis.PublicApiAnalyzers/2.9.8": {},
+      "Roslyn.Diagnostics.Analyzers/2.9.8": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.BannedApiAnalyzers": "2.9.8",
+          "Microsoft.CodeAnalysis.PublicApiAnalyzers": "2.9.8"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Introduction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeAnalysis.BannedApiAnalyzers/2.9.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DPJU5cE6/10d9ZqoUqd23vY4ZcbA4j1ebjZ1fLpVjMfzo7SwJFYKeuz8YN7l7gA2rJAfJ90JtgKeRIARW7YPCA==",
+      "path": "microsoft.codeanalysis.bannedapianalyzers/2.9.8",
+      "hashPath": "microsoft.codeanalysis.bannedapianalyzers.2.9.8.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.PublicApiAnalyzers/2.9.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oaanBu3yA/c5NUMVnpe8w7YcBRG7UmEKKnP7HxVt6lHb78XdNh8OTNFeVkVJhtlfDO1kX5y2iCeSkVSDdl9trw==",
+      "path": "microsoft.codeanalysis.publicapianalyzers/2.9.8",
+      "hashPath": "microsoft.codeanalysis.publicapianalyzers.2.9.8.nupkg.sha512"
+    },
+    "Roslyn.Diagnostics.Analyzers/2.9.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xuRMf9T1Ax6w2RHGajXUbQxbhFCKpfbIy//byeAjW4RP+oiI4+lM1kSIGZZ/DNSGt/2A1OXdfTqiizlDEWg70Q==",
+      "path": "roslyn.diagnostics.analyzers/2.9.8",
+      "hashPath": "roslyn.diagnostics.analyzers.2.9.8.nupkg.sha512"
+    }
+  }
+}

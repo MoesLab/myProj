@@ -1,0 +1,17 @@
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Acme.CommonTest.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Acme.CommonTest.pdb
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Acme.Common.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Acme.Common.pdb
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\obj\Debug\Acme.CommonTest.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\obj\Debug\Acme.CommonTest.csproj.CopyComplete
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\obj\Debug\Acme.CommonTest.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\obj\Debug\Acme.CommonTest.pdb
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\ACM.BL.dll
+C:\Users\Administrator\Documents\C#\myProj\ACM\Tests\Acme.CommonTest\bin\Debug\ACM.BL.pdb

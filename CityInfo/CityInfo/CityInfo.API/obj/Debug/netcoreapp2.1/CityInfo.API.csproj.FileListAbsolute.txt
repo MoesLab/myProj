@@ -1,0 +1,17 @@
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.deps.json
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.runtimeconfig.json
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.dll
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.pdb
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.AssemblyInfo.cs
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.dll
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.pdb
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Administrator\Documents\C#\myProj\CityInfo\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\appsettings.Production.json

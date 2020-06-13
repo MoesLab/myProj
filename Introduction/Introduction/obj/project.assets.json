@@ -1,0 +1,300 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.CodeAnalysis.BannedApiAnalyzers/2.9.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.BannedApiAnalyzers.props": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.PublicApiAnalyzers/2.9.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.PublicApiAnalyzers.props": {}
+        }
+      },
+      "Roslyn.Diagnostics.Analyzers/2.9.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeAnalysis.BannedApiAnalyzers": "[2.9.8]",
+          "Microsoft.CodeAnalysis.PublicApiAnalyzers": "[2.9.8]"
+        },
+        "build": {
+          "build/Roslyn.Diagnostics.Analyzers.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CodeAnalysis.BannedApiAnalyzers/2.9.8": {
+      "sha512": "DPJU5cE6/10d9ZqoUqd23vY4ZcbA4j1ebjZ1fLpVjMfzo7SwJFYKeuz8YN7l7gA2rJAfJ90JtgKeRIARW7YPCA==",
+      "type": "package",
+      "path": "microsoft.codeanalysis.bannedapianalyzers/2.9.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.rtf",
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.BannedApiAnalyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.BannedApiAnalyzers.dll",
+        "analyzers/dotnet/cs/cs/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/de/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/es/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/fr/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/it/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/ja/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/ko/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/pl/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/ru/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/tr/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/Microsoft.CodeAnalysis.BannedApiAnalyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.BannedApiAnalyzers.dll",
+        "analyzers/dotnet/vb/cs/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/de/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/es/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/fr/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/it/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/ja/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/ko/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/pl/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/pt-BR/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/ru/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/tr/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/zh-Hans/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/zh-Hant/Microsoft.CodeAnalysis.BannedApiAnalyzers.resources.dll",
+        "build/Microsoft.CodeAnalysis.BannedApiAnalyzers.props",
+        "documentation/Analyzer Configuration.md",
+        "documentation/Microsoft.CodeAnalysis.BannedApiAnalyzers.md",
+        "documentation/Microsoft.CodeAnalysis.BannedApiAnalyzers.sarif",
+        "editorconfig/AllRulesDefault/.editorconfig",
+        "editorconfig/AllRulesDisabled/.editorconfig",
+        "editorconfig/AllRulesEnabled/.editorconfig",
+        "editorconfig/ApiDesignRulesDefault/.editorconfig",
+        "editorconfig/ApiDesignRulesEnabled/.editorconfig",
+        "editorconfig/DataflowRulesDefault/.editorconfig",
+        "editorconfig/DataflowRulesEnabled/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesDefault/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
+        "microsoft.codeanalysis.bannedapianalyzers.2.9.8.nupkg.sha512",
+        "microsoft.codeanalysis.bannedapianalyzers.nuspec",
+        "rulesets/AllRulesDefault.ruleset",
+        "rulesets/AllRulesDisabled.ruleset",
+        "rulesets/AllRulesEnabled.ruleset",
+        "rulesets/ApiDesignRulesDefault.ruleset",
+        "rulesets/ApiDesignRulesEnabled.ruleset",
+        "rulesets/DataflowRulesDefault.ruleset",
+        "rulesets/DataflowRulesEnabled.ruleset",
+        "rulesets/PortedFromFxCopRulesDefault.ruleset",
+        "rulesets/PortedFromFxCopRulesEnabled.ruleset",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Microsoft.CodeAnalysis.PublicApiAnalyzers/2.9.8": {
+      "sha512": "oaanBu3yA/c5NUMVnpe8w7YcBRG7UmEKKnP7HxVt6lHb78XdNh8OTNFeVkVJhtlfDO1kX5y2iCeSkVSDdl9trw==",
+      "type": "package",
+      "path": "microsoft.codeanalysis.publicapianalyzers/2.9.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.rtf",
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/Microsoft.CodeAnalysis.PublicApiAnalyzers.CodeFixes.dll",
+        "analyzers/dotnet/Microsoft.CodeAnalysis.PublicApiAnalyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/de/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/es/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/fr/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/it/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/ja/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/ko/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/pl/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/pt-BR/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/ru/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/tr/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/zh-Hans/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "analyzers/dotnet/zh-Hant/Microsoft.CodeAnalysis.PublicApiAnalyzers.resources.dll",
+        "build/Microsoft.CodeAnalysis.PublicApiAnalyzers.props",
+        "documentation/Analyzer Configuration.md",
+        "documentation/Microsoft.CodeAnalysis.PublicApiAnalyzers.md",
+        "documentation/Microsoft.CodeAnalysis.PublicApiAnalyzers.sarif",
+        "editorconfig/AllRulesDefault/.editorconfig",
+        "editorconfig/AllRulesDisabled/.editorconfig",
+        "editorconfig/AllRulesEnabled/.editorconfig",
+        "editorconfig/ApiDesignRulesDefault/.editorconfig",
+        "editorconfig/ApiDesignRulesEnabled/.editorconfig",
+        "editorconfig/DataflowRulesDefault/.editorconfig",
+        "editorconfig/DataflowRulesEnabled/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesDefault/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
+        "microsoft.codeanalysis.publicapianalyzers.2.9.8.nupkg.sha512",
+        "microsoft.codeanalysis.publicapianalyzers.nuspec",
+        "rulesets/AllRulesDefault.ruleset",
+        "rulesets/AllRulesDisabled.ruleset",
+        "rulesets/AllRulesEnabled.ruleset",
+        "rulesets/ApiDesignRulesDefault.ruleset",
+        "rulesets/ApiDesignRulesEnabled.ruleset",
+        "rulesets/DataflowRulesDefault.ruleset",
+        "rulesets/DataflowRulesEnabled.ruleset",
+        "rulesets/PortedFromFxCopRulesDefault.ruleset",
+        "rulesets/PortedFromFxCopRulesEnabled.ruleset",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Roslyn.Diagnostics.Analyzers/2.9.8": {
+      "sha512": "xuRMf9T1Ax6w2RHGajXUbQxbhFCKpfbIy//byeAjW4RP+oiI4+lM1kSIGZZ/DNSGt/2A1OXdfTqiizlDEWg70Q==",
+      "type": "package",
+      "path": "roslyn.diagnostics.analyzers/2.9.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.rtf",
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/cs/Roslyn.Diagnostics.Analyzers.dll",
+        "analyzers/dotnet/cs/Roslyn.Diagnostics.CSharp.Analyzers.dll",
+        "analyzers/dotnet/cs/cs/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/de/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/es/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/fr/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/it/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ja/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ko/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pl/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ru/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/tr/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/Roslyn.Diagnostics.Analyzers.dll",
+        "analyzers/dotnet/vb/Roslyn.Diagnostics.VisualBasic.Analyzers.dll",
+        "analyzers/dotnet/vb/cs/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/de/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/es/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/fr/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/it/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/ja/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/ko/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/pl/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/pt-BR/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/ru/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/tr/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/zh-Hans/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "analyzers/dotnet/vb/zh-Hant/Roslyn.Diagnostics.Analyzers.resources.dll",
+        "build/Roslyn.Diagnostics.Analyzers.props",
+        "documentation/Analyzer Configuration.md",
+        "documentation/Roslyn.Diagnostics.Analyzers.md",
+        "documentation/Roslyn.Diagnostics.Analyzers.sarif",
+        "editorconfig/AllRulesDefault/.editorconfig",
+        "editorconfig/AllRulesDisabled/.editorconfig",
+        "editorconfig/AllRulesEnabled/.editorconfig",
+        "editorconfig/ApiDesignRulesDefault/.editorconfig",
+        "editorconfig/ApiDesignRulesEnabled/.editorconfig",
+        "editorconfig/DataflowRulesDefault/.editorconfig",
+        "editorconfig/DataflowRulesEnabled/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesDefault/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
+        "editorconfig/RoslyDiagnosticsPerformanceRulesDefault/.editorconfig",
+        "editorconfig/RoslyDiagnosticsPerformanceRulesEnabled/.editorconfig",
+        "editorconfig/RoslyDiagnosticsReliabilityRulesDefault/.editorconfig",
+        "editorconfig/RoslyDiagnosticsReliabilityRulesEnabled/.editorconfig",
+        "editorconfig/UsageRulesDefault/.editorconfig",
+        "editorconfig/UsageRulesEnabled/.editorconfig",
+        "roslyn.diagnostics.analyzers.2.9.8.nupkg.sha512",
+        "roslyn.diagnostics.analyzers.nuspec",
+        "rulesets/AllRulesDefault.ruleset",
+        "rulesets/AllRulesDisabled.ruleset",
+        "rulesets/AllRulesEnabled.ruleset",
+        "rulesets/ApiDesignRulesDefault.ruleset",
+        "rulesets/ApiDesignRulesEnabled.ruleset",
+        "rulesets/DataflowRulesDefault.ruleset",
+        "rulesets/DataflowRulesEnabled.ruleset",
+        "rulesets/PortedFromFxCopRulesDefault.ruleset",
+        "rulesets/PortedFromFxCopRulesEnabled.ruleset",
+        "rulesets/RoslyDiagnosticsPerformanceRulesDefault.ruleset",
+        "rulesets/RoslyDiagnosticsPerformanceRulesEnabled.ruleset",
+        "rulesets/RoslyDiagnosticsReliabilityRulesDefault.ruleset",
+        "rulesets/RoslyDiagnosticsReliabilityRulesEnabled.ruleset",
+        "rulesets/UsageRulesDefault.ruleset",
+        "rulesets/UsageRulesEnabled.ruleset",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Roslyn.Diagnostics.Analyzers >= 2.9.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\C#\\myProj\\Introduction\\Introduction\\Introduction.csproj",
+      "projectName": "Introduction",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\C#\\myProj\\Introduction\\Introduction\\Introduction.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\C#\\myProj\\Introduction\\Introduction\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Roslyn.Diagnostics.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.9.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
